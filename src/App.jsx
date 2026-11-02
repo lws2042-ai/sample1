@@ -1,7 +1,7 @@
 function Header() {
   return (
     <header>
-      <h1>header1</h1>
+      <h1>header</h1>
     </header>
   );
 }
@@ -11,6 +11,8 @@ function App() {
     <>
       <Header />
       <h1>헬로우 리액트</h1>
+      <Body />
+      <Footer />
     </>
   );
 }
