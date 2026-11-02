@@ -1,5 +1,5 @@
 import Body from "./Body.jsx";
-import Footer from "./Footer.jsx";
+// import Footer from "./Footer.jsx";
 
 function Header() {
   return (
@@ -15,7 +15,7 @@ function App() {
       <Header />
       <h1>헬로우 리액트</h1>
       <Body />
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }
