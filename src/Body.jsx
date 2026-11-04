@@ -1,13 +1,11 @@
 function Body() {
-  const numA = 1;
-  const numB = 2;
+  const num = 21;
 
-  return (
-    <div>
-      <div>div 1</div>
-      <div>div 2</div>
-    </div>
-  );
+  if (num % 2 === 0) {
+    return <div>{num}은(는) 짝수입니다.</div>;
+  } else {
+    return <div>{num}은(는) 홀수입니다.</div>;
+  }
 }
 
 export default Body;
